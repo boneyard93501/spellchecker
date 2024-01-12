@@ -1,0 +1,17 @@
+[package]
+name = "spellchecker"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "spellchecker"
+path = "src/main.rs"
+
+[dependencies]
+marine-rs-sdk = "0.10.1"
+ispell = "0.3.1"
+serde_json = "1.0.111"
+serde = "1.0.195"
+
+[dev-dependencies]
+marine-rs-sdk-test = "0.12.1"

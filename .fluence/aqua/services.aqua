@@ -1,0 +1,6 @@
+data CheckerResult:
+  stdout: []string
+  stderr: string
+
+service Spellchecker("spellchecker"):
+  checker(text: string, dict: string) -> CheckerResult
